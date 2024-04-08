@@ -1,0 +1,145 @@
+*{
+  padding: 0;
+  margin: 0;
+  font-family: 'Josefin Sans', sans-serif;
+  box-sizing: border-box;
+ 
+}
+
+
+.hero {
+  height:100vh;
+  width:100%;
+  
+}
+nav{
+display: flex;
+align-items: center;
+justify-content: space-between;
+padding: 45px 8%;
+
+}
+.logo{
+  color:white;
+  font-size: 35px;  
+  letter-spacing:1px;
+  cursor: pointer;
+  text-decoration: none;
+  font-weight: bold;
+}
+span{
+color:aqua;}
+
+.contatti{
+  background-color: aqua;
+  color: white;
+  border: 2PX solid transparent;
+  font-weight: bold;
+  padding: 10px 25px;
+  border-bottom: 2px;
+  border-radius: 30px;
+}
+.contatti:hover{
+  transform: scale(1.2);
+}
+nav ul li{
+  list-style-type: none;
+  display: inline-block;
+  padding:10px 25px;
+
+}
+nav ul li a{
+  color:white;
+  text-decoration: none;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+nav ul li a:hover{
+color: aqua;
+}
+.content{
+ position:  absolute;
+ padding: 170 60px;
+ color: white;
+ margin:auto;
+ 
+;
+}
+h3.main{
+  color: black;
+  letter-spacing: 0,5;
+  
+}
+h4.main{
+  font-size: 40px;
+  color: white;
+  border-color: white;
+  animation: bounce; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 2s;
+
+}
+
+.storiapompei {
+  max-width: 100%;
+  background-position: center;
+  background-size: COVER;
+  position: fixed;
+  color: black;
+  background-image:url(../Developer/back\ 2\ pag.png);
+   }
+   body{
+     background-image: url(../Developer/backgroundvsc.jpg);
+    background-size: cover;
+    background-position: center;
+   }
+  hr{
+    
+    border: 1px solid BLACK;
+  }
+  
+  .sfondo2{
+    float: right;
+   
+  }
+  .heri{
+    background-image: url(../Developer/back\ 2\ pag.png);
+    max-width: 100%;
+    background-position: center;
+    background-size: COVER;
+    
+  }
+  
+  .link:hover
+  {
+    color: aqua;
+    
+  }
+  .ciao{
+    text-align: center;
+    color: black;
+   font-style: italic;
+  }
+  .immagine{
+  padding: 1px;
+    float:right;
+    
+  }
+  .pompeisacvi{
+    float: left;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    padding: 5px;
+  }
+  .affresco{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+  
+ 
+  /* se non vogliamo che qualche elemento compaia su cellulare per eventuali problemi, basta inserire "display:none"S
+margin: 0 auto;; per centrare gli elementi
+  -> AGGIUNGERE MEDIA SCREEN <-
+  CAMBIARE COLORI ADJUSTTT
